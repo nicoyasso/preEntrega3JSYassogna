@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Perro Bissi Destilery</h1>
+
+    <!-- Sección de bebidas -->
+    <div id="bebidas-section" class="section">
+        <h2>Lista de Bebidas</h2>
+        <ul id="bebidas-list" class="list"></ul>
+    </div>
+
+    <!-- Sección del carrito de compras -->
+    <div id="carrito-section" class="section">
+        <h2>Carrito de Compras</h2>
+        <ul id="carrito-list" class="list"></ul>
+        <button id="clear-carrito-button" class="button">Vaciar Carrito</button>
+        <button id="finalizar-compra-button" class="button finalizar-compra">Finalizar Pedido</button>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Resumen del Pedido</h2>
+            <div id="pedido-content"></div>
+            <p id="modal-total-price">Total: $0</p>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
